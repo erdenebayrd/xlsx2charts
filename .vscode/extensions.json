@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    "ms-python.vscode-pylance",
+    "ms-python.black-formatter",
+    "eamodio.gitlens",
+    "ms-python.isort",
+    "ms-python.python",
+    "aaron-bond.better-comments",
+    "bradlc.vscode-tailwindcss",
+    "hollowtree.vue-snippets",
+    "esbenp.prettier-vscode",
+    "ms-azuretools.vscode-docker",
+    "github.copilot",
+    "github.github-vscode-theme",
+    "ms-python.debugpy",
+    "ms-vscode.remote-explorer",
+    "ms-vsliveshare.vsliveshare"
+  ]
+}

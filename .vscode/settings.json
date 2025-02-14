@@ -1,0 +1,85 @@
+{
+  "editor.tabSize": 4,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "editor.minimap.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.rulers": [120],
+  "editor.fontSize": 12,
+  "editor.wordWrap": "off",
+  "editor.lineHeight": 20,
+  "editor.cursorBlinking": "smooth",
+  "explorer.openEditors.visible": 1,
+  "window.zoomLevel": 0.7,
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#333",
+    "statusBar.debuggingBackground": "#333",
+    "statusBar.noFolderBackground": "#333",
+    "editorRuler.foreground": "#323131"
+  },
+  "workbench.activityBar.orientation": "vertical",
+  "explorer.sortOrder": "type",
+  "files.trimFinalNewlines": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "better-comments.multilineComments": true,
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "editor.suggestSelection": "first",
+  "prettier.singleQuote": false,
+  "prettier.printWidth": 120,
+  "editor.wordWrapColumn": 120,
+  "explorer.confirmDragAndDrop": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.watcherExclude": {
+    "**/.next/**": true,
+    "**/build/**": true,
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true
+  },
+  "search.exclude": {
+    "**/.next": true,
+    "**/build": true,
+    "**/yarn.lock": true,
+    "**/dist": true,
+    "**/node_modules": true
+  },
+  "editor.guides.indentation": false,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "[jupyter]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "jupyter.notebook.formatOnSave.enabled": true,
+  "python.formatting.provider": "black",
+  "python.formatting.blackArgs": ["--line-length", "120"],
+  "black-formatter.args": ["--line-length", "120"],
+  "python.analysis.typeCheckingMode": "basic",
+  "python.defaultInterpreterPath": "${workspaceFolder}/containers/.venv/bin/python3",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "yaml.customTags": [
+    "!Ref",
+    "!Sub",
+    "!GetAtt",
+    "!Join",
+    "!Select",
+    "!If",
+    "!Equals",
+    "!And",
+    "!Or",
+    "!Not",
+    "!FindInMap",
+    "!ImportValue",
+    "!Split",
+    "!Base64",
+    "!Cidr",
+    "!GetAZs"
+  ]
+}
